@@ -56,7 +56,6 @@ provider "azurerm" {
         prevent_deletion_if_contains_resources = false
       }
     }
-    #subscription_id = "0801206c-6df2-46c0-a126-5389947075d4"
 }
 
 provider "azuread" {
